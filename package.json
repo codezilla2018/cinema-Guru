@@ -1,30 +1,18 @@
 {
-  "name": "cinema-guru",
+  "name": "botcheck",
   "version": "1.0.0",
-  "description": "rmllbrathnayaka@gmail.com Lahiru Rathnayaka lahirutech IA4",
-  "main": "posttwitter.js",
+  "description": "fisr phase",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lanka",
+  "license": "ISC",
   "dependencies": {
     "@google-cloud/pubsub": "^0.18.0",
     "google-auth-library": "^1.5.0",
     "googleapis": "^30.0.0",
     "pubsubhubbub": "^0.4.1",
     "twit": "^2.2.9"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codezilla2018/cinema-Guru.git"
-  },
-  "keywords": [
-    "node.js"
-  ],
-  "author": "Lanka Rathnayaka",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/codezilla2018/cinema-Guru/issues"
-  },
-  "homepage": "https://github.com/codezilla2018/cinema-Guru#readme"
+  }
 }

@@ -32,12 +32,6 @@ pubSubSubscriber.listen(8080);
     });
 });
 
-
-
-
-
-
-
 //setting up the interval to tweet 1 hour
 tweetit();
 setInterval(tweetit, 1000*60*60);
