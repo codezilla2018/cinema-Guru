@@ -4,7 +4,9 @@
   "description": "fisr phase",
   "main": "main.js",
   "scripts": {
+    "start": "node posttwitter.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "author": "lanka",
   "license": "ISC",
