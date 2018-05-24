@@ -22,7 +22,7 @@ pubSubSubscriber.on("subscribe", function(data){
     console.log(data.topic + " subscribed");
 });
 
-pubSubSubscriber.listen(8080);
+pubSubSubscriber.listen(process.env.PORT || 8080);
 
  ("listen", function(){
     pubSubSubscriber.subscribe(topic, hub, function(err){
